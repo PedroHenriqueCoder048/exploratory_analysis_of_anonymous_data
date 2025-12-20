@@ -56,7 +56,7 @@ if __name__ == "__main__":
                    "ENDERECOS")
   
 
-  # data_rotulos = [[] for _ in range(len(columns_data))]
+  data_rotulos = [[] for _ in range(len(columns_data))]
 
   def count_tokens_bos(data):
     return [len(str(report).strip().split()) for report in data]
@@ -95,6 +95,9 @@ ax1.set_yticklabels([f"{t:.2f}" for t in new_ticks])
 ax1.set_ylabel('Quantidade')
 ax1.set_xlabel('Relatos')     
 ax1.set_title('Análise de tokens por B.O')
+
+ax1.set_ylim([0,1000])
+
 
 ax2.boxplot(
     data_tokens_labels,
