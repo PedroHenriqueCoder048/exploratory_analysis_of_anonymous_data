@@ -1,5 +1,5 @@
 # Análise exploratória de dados so projeto de Anonimização de dados
-<p>Essa análise serve para fazer o cálculo de tokens do projeto de anonimização de dados, usando as tecnologias Postgres, Python e o modelo de llm gpt-3.5-turbo"</p>
+<p>Essa análise serve para fazer o cálculo de tokens do projeto de anonimização de dados, usando as tecnologias Postgres, Pytho"</p>
 
 # Conectar ao Banco de dados
 
